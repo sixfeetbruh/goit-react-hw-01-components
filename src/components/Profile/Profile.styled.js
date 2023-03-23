@@ -25,7 +25,7 @@ export const AboutUser = styled.div`
 
 export const Avatar = styled.img`
   width: 120px;
-  heigth: 120px;
+  height: 120px;
 
   margin-bottom: 15px;
   border-radius: 50%;
