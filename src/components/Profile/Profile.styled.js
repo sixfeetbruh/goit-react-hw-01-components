@@ -32,7 +32,7 @@ export const Avatar = styled.img`
 `;
 
 export const Name = styled.p`
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 500;
 
   color: black;
