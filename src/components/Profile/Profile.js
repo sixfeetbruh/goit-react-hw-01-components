@@ -46,9 +46,7 @@ export const Profile = ({
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
-  followers: PropTypes.string,
-  views: PropTypes.string,
-  likes: PropTypes.string,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(PropTypes.number.isRequired)
 };

@@ -4,7 +4,6 @@ export const Section = styled.section`
   width: 270px;
   margin: 0 auto;
    margin-bottom: 50px;
-
   background-color: white;
   border: 2px solid darkgray;
   border-radius: 4px;
@@ -15,7 +14,6 @@ export const Title = styled.h2`
   font-size: 24px;
   font-weight: 500;
   color: gray;
-
   padding-top: 20px;
   padding-bottom: 20px;
 `;
@@ -33,7 +31,6 @@ export const Item = styled.li`
   column-gap: 4px;
   justify-content: center;
   align-items: center;
-
   padding: 8px;
   color: white;
 `;
